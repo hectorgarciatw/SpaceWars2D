@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         playerSpeed = 5;
         playerRb = GetComponent<Rigidbody2D>();
         playerRb.gravityScale = 0.0f;
-        missileInterval = 0.8f;
+        missileInterval = 0.6f;
     }
 
     private void Update() {
